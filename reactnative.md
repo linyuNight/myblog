@@ -34,7 +34,7 @@ https://www.bilibili.com/video/BV19q4y1X7XV?p=11
 
 
 
-快捷生成页面代码 rnc，rnf
+快捷生成页面代码 rnc，rnf，rnfes（需要样式推荐）
 
 
 
@@ -76,3 +76,68 @@ npm config set registry https://registry.npm.taobao.org
 npm config get registry
 ```
 
+
+
+
+
+expo：
+
+无需安装各种软件，开箱即用：
+
+```
+npm install --global expo-cli
+```
+
+在管理员权限下：
+
+```
+expo init my-project
+```
+
+```
+cd my-project
+```
+
+```
+expo start
+```
+
+
+
+
+
+
+
+reactnative插件地址：https://reactnative.directory/
+
+```
+npm install --save react-native-vector-icons
+```
+
+```
+npx react-native link react-native-vector-icons
+```
+
+具体图标展示：
+
+https://oblador.github.io/react-native-vector-icons/
+
+
+
+
+
+StatusBar 的 "backgroundColor" 仅在 Andriod 应用下有效
+
+barStyle "ios" 不生效
+
+
+
+
+
+linux  
+
+usrname：root  
+
+password：itcast
+
+ip：192.168.220.128
